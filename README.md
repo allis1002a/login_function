@@ -20,6 +20,10 @@
       
       - (port) : Decide the port on your own, and check the two ports should be the same.
    
+  (3) `docker attach create_account_test` 
+   
+  (4) `uvicorn app.main:app --host 0.0.0.0 --port (port)`
+   
 
 * step 3 - links to the http://0.0.0.0:4321/docs
 
