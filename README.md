@@ -12,6 +12,14 @@
   
   (2) `docker run --name create_account_test -p 4321:4321 allis1002a/login_system:v1`
   
+  (if not works, might meet the port conflict problem, try below instructions.)
+  
+  (1) `docker pull allis1002a/login_system:v2`
+  
+  (2) `docker run --name create_account_test -p (port):(port) allis1002a/login_system:v1`
+      
+      - (port) : Decide the port on your own, and check the two ports should be the same.
+   
 
 * step 3 - links to the http://0.0.0.0:4321/docs
 
