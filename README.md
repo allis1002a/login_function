@@ -46,6 +46,7 @@
  (2) UI - 目前採用 Swagger UI, fastapi 內建。
  
  (3) data storage solutions
+ 
       a. 目前採用存入list
       b. 連結MySQL, 並開啟兩個container，一個為主程式，另一個是資料庫程式，並container接口對內。（尚未建立）
  
