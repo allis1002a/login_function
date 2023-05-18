@@ -55,7 +55,7 @@ async def read_item(username: str, password: str):
                     username, 0) + 1
 
                 # 如果使用者輸入錯誤密碼超過五次，則等待 30 秒
-                if password_attempts[username] > 2:
+                if password_attempts[username] > 5:
                     # 送至前端，請前端處理header中‘Retry-After': "10"。
 
                     raise HTTPException(
