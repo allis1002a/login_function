@@ -4,12 +4,14 @@
 * step 1 - GitHub
 
   `git clone https://github.com/allis1002a/login_system.git`
+  
 
 * step 2 - Go to Docker links https://hub.docker.com/repository/docker/allis1002a/login_system/general
 
   (1) `docker pull allis1002a/login_system:v1`
   
   (2) `docker run --name create_account_test -p 80:80 allis1002a/login_system:v1`
+  
 
 * step 3 - links to the http://0.0.0.0:80/docs
 
@@ -24,6 +26,8 @@
       a. click Try it out.
       
       b. input username and password that you want to verify.
+      
+      
  
  ## Note
  
