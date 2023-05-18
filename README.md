@@ -23,7 +23,7 @@
   (3) `uvicorn app.main:app --host 0.0.0.0 --port (port)`
    
 
-* step 3 - links to the http://0.0.0.0:4321/docs
+* step 3 - links to the http://0.0.0.0:4321/docs or http://0.0.0.0:(port)/docs
 
   (1) POST : /create_user/ 
 
