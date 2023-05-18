@@ -10,10 +10,10 @@
 
   (1) `docker pull allis1002a/login_system:v1`
   
-  (2) `docker run --name create_account_test -p 80:80 allis1002a/login_system:v1`
+  (2) `docker run --name create_account_test -p 4321:4321 allis1002a/login_system:v1`
   
 
-* step 3 - links to the http://0.0.0.0:80/docs
+* step 3 - links to the http://0.0.0.0:4321/docs
 
   (1) POST : /create_user/ 
 
